@@ -10,7 +10,7 @@ services:
       EULA: "TRUE"
     volumes:
       - type: bind
-        source: /C:\minecraft
+        source: /c/minecraft
         target: /data
     restart: unless-stopped    
     ports:
